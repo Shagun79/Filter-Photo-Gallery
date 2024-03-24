@@ -1,0 +1,28 @@
+.box {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.rows {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+.pictures {
+  width: 200px;
+  height: 100px;
+}
+.btns {
+  display: flex;
+  margin-left: 30px;
+}
+.btns button {
+  padding: 20px 90px;
+  background: black;
+  color: red;
+  border: none;
+  margin-right: 150px;
+}
